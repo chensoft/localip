@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalIP.cc - All Domains Point to 127.0.0.1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 50px;
+            background: linear-gradient(90deg, #f81ce5, #0ef8f8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400% 400%;
+            animation: gradientAnimation 5s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .domain-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .domain-list li {
+            background-color: #111;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 24px;
+            background: linear-gradient(90deg, #f81ce5, #0ef8f8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400% 400%;
+            animation: gradientAnimation 5s ease infinite;
+        }
+    </style>
+</head>
+<body>
+<h1>All Domains Point to 127.0.0.1</h1>
+<ul class="domain-list">
+    <li><a href="http://localip.cc:3000">localip.cc</a></li>
+    <li><a href="http://api.localip.cc:3000">api.localip.cc</a></li>
+    <li><a href="http://app.localip.cc:3000">app.localip.cc</a></li>
+    <li><a href="http://blog.localip.cc:3000">blog.localip.cc</a></li>
+    <li>and more...</li>
+</ul>
+</body>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CWWRH427XY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CWWRH427XY');
+</script>
+</html>
